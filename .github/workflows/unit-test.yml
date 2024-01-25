@@ -30,7 +30,6 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-
   coverage:
     runs-on: ubuntu-latest
     steps:
