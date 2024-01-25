@@ -52,10 +52,10 @@ const ObstacleCourse = () => {
   return (
     <div className="grid grid-cols-2 gap-4">
       <div className="flex items-center gap-2 border-2 border-purple-300 p-2">
+        <input />
         <label htmlFor="deep-thought">Deep Thought</label>
         <input
           placeholder="Some text…"
-          id="deep-thought"
           value={text}
           onChange={(e) => setText(e.target.value)}
           data-testid="text-input"
