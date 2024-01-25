@@ -55,7 +55,6 @@ const ObstacleCourse = () => {
         <label htmlFor="deep-thought">Deep Thought</label>
         <input
           placeholder="Some text…"
-          id="deep-thought"
           value={text}
           onChange={(e) => setText(e.target.value)}
           data-testid="text-input"
